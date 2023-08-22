@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Percystroy | Projects</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;700&family=Lexend+Deca:wght@400;500;600&family=Rubik:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_project.css" />
+    <style>
+      :root,
+      [data-bs-theme="light"] {
+        --bs-black: #000000;
+        --bs-purple: #5928e5;
+        --bs-purple-light: #7d5add;
+        --bs-dark-e: #4b4453;
+        --bs-white-e: #b0a8b9;
+        --bs-white: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-color pt-lg-1 py-2 mt-0">
+      <div class="container">
+        <a href="#"
+          ><img src="Logo Prime.png" style="height: 80%; width: 120px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                href="education.html"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-capitalize fs-6 fw-bolder"
+                href="project.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                href="Contact.html"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner carousel-fade">
+        <div class="carousel-item active">
+          <img
+            src="img_1.png"
+            class="d-block w-100 img-fluid"
+            style="height: 28rem"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="perpule_title">The Magic Box</h5>
+            <p>
+              The Magic Box is a 3D model blender, this is the representation of
+              imagination.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img_2.png"
+            class="d-block w-100 img-fluid"
+            style="height: 28rem"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="perpule_title">The Perfume bottle</h5>
+            <p>
+              3D model of the Perfume bottle is a stunning and realistic
+              representation of the fragrance container.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img_3.png"
+            class="d-block w-100 img-fluid"
+            style="height: 28rem"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 id="white_title">The Pillow</h5>
+            <p>
+              Pillow is a digital representation of a chair created using the
+              Blender software.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Projects-->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(Logo-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title> -->
+                <!-- <img src="books" alt="" >
+                <rect width="100%" height="100%"></rect> -->
+                <!-- <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  Logo For YouTube Channel | PERCYSTROY
+                </p>
+                <p>
+                  This is my Youtube channel. here, I'm doing exciting things
+                  like Gaming videos, Photo Editing, Sketching, poetry, and
+                  Create 3D models I hope you'll love it.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/176399639/Logo-For-YouTube-Channel-PERCYSTROY"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(pillow-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  Pillow 3D Blender Model
+                </p>
+                <p class="card-text">
+                  The Blender 3D model of a Pillow is a digital representation
+                  of a chair created using the Blender software.
+                </p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/176762695/PILLOW-3D-Blender-Model"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(perfume-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  Perfume Bottle
+                </p>
+                <p class="card-text">
+                  3D model of the Perfume bottle is a stunning and realistic
+                  representation of the fragrance container. designed using
+                  Blender's 3D modeling tools.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/176471183/3D-Perfume-Bottle"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(house-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  3D Model of House
+                </p>
+                <p class="card-text">
+                  The Blender 3D model of the house is a realistic virtual
+                  representation of residential dwellings.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/176611511/The-Blender-3D-model-of-the-house"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(Space-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  Space Box
+                </p>
+                <p class="card-text">
+                  The Space Box is a 3D model blender, this is the
+                  representation of imagination.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/177140941/Space-Box"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(chair-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  A Chair
+                </p>
+                <p class="card-text">
+                  It can be used for the explore the chair's aesthetics and
+                  functionality before physical production.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/176595129/The-Blender-3D-model-of-a-chair"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(magic-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  Magic Box
+                </p>
+                <p class="card-text">
+                  The Magic Box is a 3D model blender, this is the
+                  representation of imagination.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/177521973/MAGIC-BOX"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(ladder-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  Blender 3d Model
+                </p>
+                <p class="card-text">
+                  Some random 3D models. Designed by using the blender's
+                  powerful 3D modeling tools,
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a
+                        href="https://www.behance.net/gallery/176737221/3D-Models"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                style="
+                  background-image: url(amazon-project.png);
+                  background-size: cover;
+                "
+              >
+                <!-- <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> -->
+              </svg>
+              <div class="card-body">
+                <p
+                  class="card-text"
+                  style="font-weight: 600; color: var(--bs-purple)"
+                >
+                  Amazon Clone Website
+                </p>
+                <p class="card-text">
+                  THe clone website created by using HTML, And CSS (Cascading
+                  Style sheets).
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm c-hover btn-outline-secondary"
+                    >
+                      <a href="https://amazing-puppy-192db9.netlify.app/"
+                        >View</a
+                      >
+                    </button>
+                    <!-- <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button> -->
+                  </div>
+                  <!-- <small class="text-body-secondary">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Front End Developer",
+          "Blender 3D modeler",
+          "Writer",
+          "Graphic Designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

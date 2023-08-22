@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Percystroy | About</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;700&family=Lexend+Deca:wght@400;500;600&family=Rubik:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_about.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-color pt-lg-1 py-2 mt-0">
+      <div class="container">
+        <a href="#"
+          ><img src="Logo Prime.png" style="height: 80%; width: 120px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-capitalize fs-6 fw-bolder"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                href="education.html"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                href="project.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-6 fw-bolder"
+                href="Contact.html"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div class="main_container">
+      <div class="container-b">
+        <div class="imag">
+          <img src="HELLO_INVERT.png" class="img-fluid" alt="..." />
+        </div>
+      </div>
+      <div class="title">
+        <h1>GORGE TO MEET YA!</h1>
+        <p class="marg">
+          Im Omkar. Designer, Writer, blender 3D modeler, Front End Design
+        </p>
+        <p>and most recently, I’m obsessed with creative</p>
+        <p>expression and the meaning it creates in our lives.</p>
+      </div>
+    </div>
+    <div class="container_t img-fluid">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6 d-flex flex-column">
+          <img src="taramati.jpg" class="image-f" />
+          <img src="main_fram.png" class="image-e" />
+        </div>
+        <div class="col-12 col-md-12 col-lg-6">
+          <div
+            class="imag-sec- text-lg-end justify-content-center align-items-end"
+          >
+            <div class="blank">
+              <p class="one-line">LET YOUR</p>
+              <p class="two-line">VISION FLY</p>
+            </div>
+            <img src="myself.png" class="imag-sec img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Front End Developer",
+          "Blender 3D modeler",
+          "Writer",
+          "Graphic Designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

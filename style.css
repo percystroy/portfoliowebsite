@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;700&family=Lexend+Deca:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "urbanist", sans-serif;
+}
+
+:root,
+[data-bs-theme="light"] {
+  --bs-black: #000000;
+  --bs-purple: #5928e5;
+  --bs-purple-light: #7d5add;
+  --bs-dark-e: #4b4453;
+  --bs-white-e: #b0a8b9;
+  --bs-white: white;
+}
+
+.mt-0 {
+  margin-top: 10px !important;
+}
+
+.nav-item a {
+  color: var(--bs-purple);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--bs-black);
+}
+
+h1 {
+  font-size: 3.8rem;
+  color: #5928e5;
+}
+h2 {
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/* hero-section */
+
+.mb-0 {
+  margin-bottom: 0;
+}
+.bg-color {
+  background-color: var(--bs-white);
+}
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+.hero-image--section {
+  max-width: 100%;
+  height: auto;
+  width: 72%;
+  border-radius: 50%;
+}
+.bg-main {
+  height: 73vh;
+  position: relative;
+}
+
+#element {
+  color: var(--bs-dark-e);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  width: 80%;
+}
+
+.text-center .btn {
+  background-color: var(--bs-purple-light);
+  color: white;
+  margin-top: 10px;
+}
+
+.text-center .btn:hover {
+  background-color: var(--bs-purple);
+}
+
+.custom-shape-divider-bottom-1691592866 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1691592866 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 124px;
+}
+
+.custom-shape-divider-bottom-1691592866 .shape-fill {
+  fill: #5928e5;
+}

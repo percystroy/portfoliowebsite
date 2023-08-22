@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;700&family=Lexend+Deca:wght@400;500;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;700&family=Lexend+Deca:wght@400;500;600&family=Rubik:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "urbanist", sans-serif;
+}
+
+:root,
+[data-bs-theme="light"] {
+  --bs-black: #000000;
+  --bs-purple: #5928e5;
+  --bs-purple-light: #7d5add;
+  --bs-dark-e: #4b4453;
+  --bs-white-e: #b0a8b9;
+  --bs-white: white;
+}
+
+/* .mt-0 {
+  /* margin-top: 10px !important; */
+
+.nav-item a {
+  color: var(--bs-purple);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Rubik", sans-serif;
+  color: var(--bs-black);
+}
+
+/* h1 {
+  font-size: 5rem;
+  color: #5928e5;
+  font-weight: 500;
+} */
+h2 {
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* hero-section */
+.main_container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-b {
+  background-color: #5928e5;
+  width: 100%;
+  height: 38.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imag {
+  margin-top: 10px;
+  width: 50%;
+  height: 103%;
+  /* background-image: url(HELLO_INVERT.png);
+  background-size: cover; */
+}
+
+.title {
+  display: block;
+  width: 93%;
+  height: 70%;
+  margin-left: 12px;
+  margin-right: 40px;
+  margin-block: 10px;
+  justify-content: center;
+}
+
+.title h1 {
+  font-weight: 500;
+  font-size: 5rem;
+  text-align: center;
+  color: var(--bs-purple);
+  margin-top: 95px;
+}
+
+.title p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--bs-dark-e);
+  margin-bottom: 1px;
+}
+
+.marg {
+  margin-top: 40px;
+  margin-bottom: 1px;
+}
+
+/* image-section */
+.image-f {
+  margin-left: -13px;
+  margin-top: 8rem;
+  border-radius: 10px;
+}
+
+.image-e {
+  margin-left: 8rem;
+  margin-top: 11rem;
+  border-radius: 10px;
+}
+.imag-sec {
+  width: 36rem;
+  height: 39rem;
+  margin-right: 0;
+  /* margin-top: 32rem; */
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+.imag-sec- {
+  font-size: medium;
+}
+
+.blank {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--bs-purple-light);
+  margin-top: 8rem;
+}
+
+.blank .two-line {
+  margin-top: 0;
+  margin-bottom: 20rem;
+  inset: 20px;
+}
+
+.one-line {
+  margin-bottom: -20.5px;
+  inset: 20px;
+}

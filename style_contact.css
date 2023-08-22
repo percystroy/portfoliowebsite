@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;700&family=Lexend+Deca:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "urbanist", sans-serif;
+  /* background-color: var(--bs-purple); */
+}
+
+:root,
+[data-bs-theme="light"] {
+  --bs-black: #000000;
+  --bs-purple: #5928e5;
+  --bs-purple-light: #7d5add;
+  --bs-dark-e: #4b4453;
+  --bs-white-e: #b0a8b9;
+  --bs-white: white;
+}
+
+.mt-0 {
+  margin-top: 10px !important;
+}
+.mb-0 {
+  margin: 20px;
+}
+.nav-item a {
+  color: var(--bs-purple);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--bs-black);
+}
+
+h1 {
+  font-size: 3.8rem;
+  color: #5928e5;
+}
+h2 {
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.bg-color {
+  background-color: var(--bs-white);
+}
+
+/* form */
+.container-s {
+  background-color: #5a28e586;
+
+  margin-top: 58px;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+}
+
+/* .m-lg {
+  margin-left: 13.4rem;
+  margin-right: 13.4rem;
+} */
+/* .m-sm {
+  margin-left: 3.4rem;
+  margin-right: 3.4rem;
+}
+.m-mb {
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+} */
+
+.label-font {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 500;
+}
+#text {
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: var(--bs-purple);
+  border: none;
+  color: var(--bs-white);
+}
+
+.btn:hover {
+  background-color: #bb00ff;
+}
