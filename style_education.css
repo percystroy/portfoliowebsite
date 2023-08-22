@@ -264,7 +264,7 @@ div p #span-bold {
   margin-top: 5px;
 }
 
-button {
+#paper {
   border-radius: 4px;
   background-color: #5928e5;
   border: none;
@@ -279,14 +279,14 @@ button {
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
 
-button {
+#paper {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-button:after {
+#paper:after {
   content: "»";
   position: absolute;
   opacity: 0;
@@ -295,12 +295,12 @@ button:after {
   transition: 0.5s;
 }
 
-button:hover {
+#paper:hover {
   padding-right: 24px;
   padding-left: 8px;
 }
 
-button:hover:after {
+#paper:hover:after {
   opacity: 1;
   right: 10px;
 }
